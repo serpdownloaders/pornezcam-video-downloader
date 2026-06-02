@@ -1,0 +1,214 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/pornezcam-downloader",
+  "serply_link": "https://serp.ly/pornezcam-downloader",
+  "app_name": "Pornezcam Video Downloader",
+  "short_description": "Download & Save Pornezcam Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Pornezcam Downloader is a browser extension built around the distinctive page structure of PornEZ.cam. Unlike generic video downloaders, this tool is tuned for the platform's unusual routing pattern where video pages use long, descriptive slugs at the root path rather than short directory-style URLs. The extension is designed to work through the iframe handoff that PornEZ.cam uses to deliver its embedded player, making it possible to surface downloadable media from pages where the video isn't immediately visible.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/pornezcam-downloader-fullscreen-01-138ade7f29.webp",
+    "https://apps.serp.co/media/optimized-products/pornezcam-downloader-fullscreen-02-40228b6f00.webp",
+    "https://apps.serp.co/media/optimized-products/pornezcam-downloader-fullscreen-03-2730eae7ae.webp",
+    "https://apps.serp.co/media/optimized-products/pornezcam-downloader-fullscreen-04-155aa93635.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does this work on every Pornezcam video page?",
+      "answer": "The extension is designed for Pornezcam's standard page structure, but not every page may expose detectable media. Results depend on how the iframe player delivers content."
+    },
+    {
+      "question": "Can I download videos in resolutions above 1080p?",
+      "answer": "The extension surfaces whatever media the Pornezcam player makes available. Resolution options depend on what's served through the iframe."
+    },
+    {
+      "question": "Why does the extension mention stale configurations?",
+      "answer": "The current version is in test-ready status. Some configuration files are being updated as development continues, and these messages will be removed in future releases."
+    },
+    {
+      "question": "Do I need to keep the page open while downloading?",
+      "answer": "Yes, the download process requires the page to remain active in your browser until the capture completes."
+    },
+    {
+      "question": "Is this extension available for mobile browsers?",
+      "answer": "This extension is designed for desktop browsers only. Mobile support is not currently available."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Archiving content from Pornezcam that you have permission to keep"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Built specifically for PornEZ.cam branding and page patterns",
+    "Designed around long root-level slug URLs unique to the platform",
+    "Iframe-aware detection for embedded player content",
+    "Supports both m3u8 and mp4 media discovery",
+    "Cautious readiness messaging aligned with target-verified testing status",
+    "PornEZ.cam-specific detection tuned for the platform's page structure",
+    "Iframe-aware media discovery for embedded player content",
+    "Support for both m3u8 playlist and direct mp4 file detection",
+    "Designed around long root-level slug URLs",
+    "Cautious media identification that respects the platform's delivery model",
+    "No need to manually inspect page source or network requests",
+    "Works with the platform's natural playback flow",
+    "Test-ready status with transparent readiness messaging"
+  ],
+  "content": {
+    "why": [
+      "PornEZ.cam uses a specific page structure where video content loads inside an embedded iframe rather than directly on the landing page. This means the media URL isn't immediately available when you open a video page, and standard download methods often fail to capture anything useful. The long, descriptive slug URLs used by the platform add another layer of complexity that generic downloaders aren't designed to handle.",
+      "This extension was built to address those exact challenges. By understanding the iframe handoff pattern and the unique page routing PornEZ.cam uses, it can follow the playback path from the initial landing page through to the embedded player and surface any m3u8 or mp4 media it finds. The result is a more reliable way to save content from PornEZ.cam without needing to dig through page source code or third-party tools."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Pornezcam and go to a supported video page.",
+      "Let the page load so the iframe player can initialize.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Navigate to a Pornezcam video page using its long root-level slug URL.",
+      "Wait for the page to fully load, including the embedded iframe player.",
+      "Click the play button on the video to start playback.",
+      "Open the extension popup from your browser's toolbar.",
+      "Allow the extension to scan the page for detectable media.",
+      "Review the surfaced media options, which may appear as m3u8 or mp4.",
+      "Select the quality or format you want to download.",
+      "Confirm the download and save the resulting MP4 file to your device."
+    ],
+    "supported_formats": [
+      "Input: m3u8 playlists and direct mp4 files as surfaced through the Pornezcam iframe player",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Desktop browser users who visit Pornezcam and want to save videos locally",
+      "Users who need a tool that understands Pornezcam's iframe-based delivery model",
+      "People who encounter long root-level slug URLs and need a downloader that handles them",
+      "Anyone testing or evaluating Pornezcam-specific download tools"
+    ],
+    "use_cases": [
+      "Saving a Pornezcam video for offline viewing when you don't have reliable internet access",
+      "Archiving content from Pornezcam that you have permission to keep",
+      "Testing whether a Pornezcam page exposes m3u8 or mp4 media through its iframe player",
+      "Evaluating the Pornezcam download workflow before committing to a full license",
+      "Comparing Pornezcam-specific detection against generic video downloaders"
+    ],
+    "troubleshooting": [
+      "The extension doesn't detect any media on the page Make sure the video is playing and the iframe player has fully loaded. Some Pornezcam pages require playback to start before media requests become visible.",
+      "The download starts but produces a broken file Try restarting playback and initiating the download again. Interrupted network connections can sometimes result in incomplete captures.",
+      "The extension popup doesn't open Check that the extension is properly installed and enabled in your browser. You may need to refresh the Pornezcam page after installation.",
+      "I see a \"stale config\" or \"generated stub\" message This is expected for the current version. The extension is in test-ready status and these messages will be updated as development progresses.",
+      "The download button is grayed out Not all Pornezcam pages may expose detectable media. The extension can only surface what the iframe player makes available during playback."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Pornezcam page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Pornezcam uses an iframe handoff model, so the landing page may not directly expose media URLs",
+      "The extension is in test-ready status with ongoing development"
+    ],
+    "about": [
+      "Pornezcam is an adult video platform that uses a distinctive page structure with long, descriptive root-level slugs and an embedded iframe player for content delivery. This extension helps users navigate that structure to surface downloadable media from supported pages."
+    ]
+  },
+  "serpx_link": "https://serpx.link/pornezcam-downloader",
+  "github_topics": [
+    "pornezcam-download",
+    "pornezcam-downloader",
+    "pornezcam-video-downloader",
+    "pornezcam-video-downloader-online",
+    "pornezcam-video-downloader-mac",
+    "pornezcam-video-downloader-window",
+    "pornezcam-video-downloader-free",
+    "pornezcam-video-downloader-extension",
+    "pornezcam-video-downloader-app",
+    "pornezcam-video-downloader-chrome",
+    "pornezcam-video-downloader-from-url",
+    "how-to-download-pornezcam-videos",
+    "how-to-download-pornezcam-videos-mac",
+    "how-to-download-pornezcam-videos-windows",
+    "how-to-download-pornezcam-videos-online",
+    "how-to-download-pornezcam-videos-free",
+    "how-to-download-from-pornezcam",
+    "how-to-download-videos-from-pornezcam",
+    "download-pornezcam-videos",
+    "pornezcam-video-tutorial",
+    "save-pornezcam-videos",
+    "pornezcam-video-content-saver",
+    "how-to-download-pornezcam-videos-for-free"
+  ],
+  "hashtags": [
+    "#PornezcamDownload",
+    "#PornezcamDownloader",
+    "#PornezcamVideoDownloader",
+    "#PornezcamVideoDownloaderOnline",
+    "#PornezcamVideoDownloaderMac",
+    "#PornezcamVideoDownloaderWindow",
+    "#PornezcamVideoDownloaderFree",
+    "#PornezcamVideoDownloaderExtension",
+    "#PornezcamVideoDownloaderApp",
+    "#PornezcamVideoDownloaderChrome",
+    "#PornezcamVideoDownloaderFromURL",
+    "#HowToDownloadPornezcamVideos",
+    "#HowToDownloadPornezcamVideosMac",
+    "#HowToDownloadPornezcamVideosWindows",
+    "#HowToDownloadPornezcamVideosOnline",
+    "#HowToDownloadPornezcamVideosFree",
+    "#HowToDownloadFromPornezcam",
+    "#HowToDownloadVideosFromPornezcam",
+    "#DownloadPornezcamVideos",
+    "#PornezcamVideoTutorial",
+    "#SavePornezcamVideos",
+    "#PornezcamVideoContentSaver",
+    "#HowToDownloadPornezcamVideosForFree"
+  ],
+  "youtube_tags": [
+    "Pornezcam Download",
+    "Pornezcam Downloader",
+    "Pornezcam Video Downloader",
+    "Pornezcam Video Downloader Online",
+    "Pornezcam Video Downloader Mac",
+    "Pornezcam Video Downloader Window",
+    "Pornezcam Video Downloader Free",
+    "Pornezcam Video Downloader Extension",
+    "Pornezcam Video Downloader App",
+    "Pornezcam Video Downloader Chrome",
+    "Pornezcam Video Downloader From URL",
+    "How To Download Pornezcam Videos",
+    "How To Download Pornezcam Videos Mac",
+    "How To Download Pornezcam Videos Windows",
+    "How To Download Pornezcam Videos Online",
+    "How To Download Pornezcam Videos Free",
+    "How To Download From Pornezcam",
+    "How To Download Videos From Pornezcam",
+    "Download Pornezcam Videos",
+    "Pornezcam Video Tutorial",
+    "Save Pornezcam Videos",
+    "Pornezcam Video Content Saver",
+    "How To Download Pornezcam Videos For Free"
+  ]
+}
